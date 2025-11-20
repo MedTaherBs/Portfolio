@@ -9,22 +9,35 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Recommendation System for Task Assignment",
-      description: "Developed an NLP-based system to divide projects into tasks automatically with machine learning models to predict complexity.",
-      image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600",
-      tags: ["NLP", "Machine Learning", "Python", "Project Management"],
+      title: "HelpHub - RAG-Based Helpdesk System",
+      description: "Built an intelligent helpdesk platform leveraging Retrieval-Augmented Generation (RAG) for accurate, context-aware support responses.",
+      image: "/helphub_thumbnail.png",
+      tags: ["RAG", "LangChain", "Python", "AI", "NLP"],
       category: "AI/ML",
       icon: Brain,
       color: "from-blue-500 to-cyan-400",
+      github: "https://github.com/MedTaherBs/HelpHub",
+      demo: "#",
+      features: ["RAG implementation", "Context-aware responses", "Vector embeddings", "Intelligent retrieval"]
+    },
+    {
+      id: 2,
+      title: "Recommendation System for Task Assignment",
+      description: "Developed an NLP-based system to divide projects into tasks automatically with machine learning models to predict complexity.",
+      image: "/DIGIXI_thumbnail.png",
+      tags: ["NLP", "Machine Learning", "Python", "Project Management"],
+      category: "AI/ML",
+      icon: Brain,
+      color: "from-purple-500 to-pink-400",
       github: "https://github.com/MedTaherBenSlama/task-recommendation-system",
       demo: "#",
       features: ["Automatic task division", "Complexity prediction", "Difficulty scoring", "Intelligent task distribution"]
     },
     {
-      id: 2,
+      id: 3,
       title: "Foody - Restaurant Management App",
       description: "Full-stack restaurant management application with real-time order tracking, menu management, and customer database.",
-      image: "https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg?auto=compress&cs=tinysrgb&w=600",
+      image: "/foody_thumbnail.png",
       tags: ["Spring Boot", "Angular", "MVC Architecture", "MySQL"],
       category: "Spring Boot",
       icon: Globe,
@@ -34,20 +47,20 @@ const Projects = () => {
       features: ["Menu management", "Order tracking", "Customer database", "Payment processing"]
     },
     {
-      id: 3,
+      id: 4,
       title: "Data Traffic Analysis Platform",
       description: "Interactive platform for analyzing network traffic data with dynamic visualization tools and filtering capabilities.",
       image: "https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=600",
       tags: ["Node.js", "React.js", "Chart.js", "AMCharts"],
       category: "Node.js",
       icon: BarChart3,
-      color: "from-purple-500 to-pink-400",
+      color: "from-cyan-500 to-blue-400",
       github: "https://github.com/MedTaherBenSlama/traffic-analysis-platform",
       demo: "#",
       features: ["Data visualization", "Sorting & filtering", "Live updates", "Large dataset handling"]
     },
     {
-      id: 4,
+      id: 5,
       title: "SmartCare - Healthcare Advisory Web App",
       description: "Healthcare platform with appointment scheduling, patient management, and AI-powered health advice system.",
       image: "https://images.pexels.com/photos/7089401/pexels-photo-7089401.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -60,7 +73,7 @@ const Projects = () => {
       features: ["Appointment scheduling", "Patient management", "AI health advice", "Medical records"]
     },
     {
-      id: 5,
+      id: 6,
       title: "Personal Portfolio Website",
       description: "Responsive portfolio website built with React and Tailwind CSS to showcase projects, skills, and professional experience.",
       image: "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -71,19 +84,6 @@ const Projects = () => {
       github: "https://github.com/MedTaherBenSlama/portfolio",
       demo: "#",
       features: ["Responsive design", "Project showcase", "Skills visualization", "Contact form"]
-    },
-    {
-      id: 6,
-      title: "E-Commerce Dashboard",
-      description: "Administrative dashboard for e-commerce platforms with inventory management, sales analytics, and customer insights.",
-      image: "https://images.pexels.com/photos/38568/apple-imac-ipad-workplace-38568.jpeg?auto=compress&cs=tinysrgb&w=600",
-      tags: ["React", "Node.js", "Express", "MongoDB"],
-      category: "Node.js",
-      icon: Cpu,
-      color: "from-teal-500 to-blue-400",
-      github: "https://github.com/MedTaherBenSlama/ecommerce-dashboard",
-      demo: "#",
-      features: ["Sales analytics", "Inventory tracking", "Customer insights", "Order management"]
     }
   ];
 

@@ -5,6 +5,24 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
+      company: "Personal Project",
+      position: "Full-Stack Developer - HelpHub",
+      duration: "Nov 2025 - Present",
+      location: "Tunisia",
+      type: "Project",
+      description: "Built an intelligent RAG-based helpdesk system leveraging LangChain for context-aware support responses.",
+      achievements: [
+        "Implemented Retrieval-Augmented Generation (RAG) for accurate helpdesk responses",
+        "Integrated LangChain framework for advanced NLP capabilities",
+        "Developed vector embeddings for intelligent document retrieval",
+        "Created a seamless user interface for efficient support interactions"
+      ],
+      technologies: ["RAG", "LangChain", "Python", "Vector Embeddings", "NLP", "AI"],
+      color: "from-blue-500 to-cyan-400",
+      highlight: true
+    },
+    {
+      id: 2,
       company: "Digixi",
       position: "PFA Internship - ML Engineer",
       duration: "Jul 2025 - Aug 2025",
@@ -18,11 +36,11 @@ const Experience = () => {
         "Implemented a user-friendly interface for the recommendation system"
       ],
       technologies: ["Python", "NLP", "Machine Learning", "Project Management", "AI"],
-      color: "from-blue-500 to-cyan-400",
-      highlight: true
+      color: "from-purple-500 to-pink-400",
+      highlight: false
     },
     {
-      id: 2,
+      id: 3,
       company: "Academic Project",
       position: "Full-Stack Developer",
       duration: "Jul 2023 - Aug 2023",
@@ -36,10 +54,10 @@ const Experience = () => {
         "Applied MVC architecture principles for clean code organization"
       ],
       technologies: ["Spring Boot", "Angular", "MySQL", "MVC Architecture", "REST API"],
-      color: "from-purple-500 to-pink-400"
+      color: "from-green-500 to-emerald-400"
     },
     {
-      id: 3,
+      id: 4,
       company: "Tunisie Telecom",
       position: "Network Service Quality Intern",
       duration: "Jul 2024 - Aug 2024",
@@ -53,10 +71,10 @@ const Experience = () => {
         "Designed intuitive user interfaces for complex data visualization"
       ],
       technologies: ["Node.js", "React.js", "Chart.js", "AMCharts", "Data Visualization"],
-      color: "from-green-500 to-emerald-400"
+      color: "from-cyan-500 to-blue-400"
     },
     {
-      id: 4,
+      id: 5,
       company: "Academic Project",
       position: "Full-Stack Developer",
       duration: "Jul 2024 - Aug 2024",

@@ -12,21 +12,23 @@ const About = () => {
                 About Me
               </h2>
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                I'm an adaptable software engineering student with a strong passion for backend development, problem-solving, and intelligent
-                systems. I specialize in building modern applications with a focus on creating intuitive and responsive user interfaces.
+                I'm an adaptable software engineering student with a strong passion for backend development, AI integration, and intelligent
+                systems. I specialize in building modern applications with a focus on creating intuitive user experiences and leveraging
+                cutting-edge AI technologies like RAG and LangChain.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
                 Quick to learn and analytically minded, I'm eager to apply practical solutions to real-world challenges. I actively
-                participate in competitive programming on Codeforces and am currently exploring AI, NLP, and intelligent task automation.
+                participate in competitive programming on Codeforces and am currently exploring advanced AI concepts, NLP, and intelligent
+                task automation systems.
               </p>
             </div>
 
             <div className="grid grid-cols-2 gap-4">
               {[
-                { icon: Code, label: "Lines of Code", value: "20K+", color: "text-blue-400" },
+                { icon: Code, label: "Lines of Code", value: "25K+", color: "text-blue-400" },
                 { icon: Coffee, label: "Coffee Cups", value: "∞", color: "text-orange-400" },
-                { icon: User, label: "Projects", value: "10+", color: "text-green-400" },
-                { icon: Heart, label: "Collaborations", value: "5", color: "text-red-400" }
+                { icon: User, label: "Projects", value: "12+", color: "text-green-400" },
+                { icon: Heart, label: "Collaborations", value: "6+", color: "text-red-400" }
               ].map((stat, idx) => (
                 <div key={stat.label + idx} className="text-center p-4 rounded-lg bg-white/5 backdrop-blur-sm border border-purple-500/20 hover:border-purple-400/50 transition-all duration-300 group">
                   <stat.icon className={`h-8 w-8 mx-auto mb-2 ${stat.color} group-hover:scale-110 transition-transform duration-300`} />
@@ -60,7 +62,7 @@ const About = () => {
                   </div>
                   <div className="flex justify-between">
                     <span>Current Focus:</span>
-                    <span className="text-purple-400">Full Stack Development + AI Integration</span>
+                    <span className="text-purple-400">RAG, LangChain & AI Integration</span>
                   </div>
                 </div>                <div className="pt-6 border-t border-purple-500/20">
                   <p className="text-sm text-gray-400">

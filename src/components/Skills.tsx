@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Code, Database, Brain, Palette, Server, Globe } from 'lucide-react';
+import { Code, Database, Brain, Server, Globe } from 'lucide-react';
 
 const Skills = () => {
   const [inView, setInView] = useState(false);
@@ -30,6 +30,7 @@ const Skills = () => {
       skills: [
         { name: "Java", level: 88, description: "Object-oriented programming" },
         { name: "JavaScript", level: 85, description: "Web & application development" },
+        { name: "TypeScript", level: 82, description: "Type-safe JavaScript" },
         { name: "Python", level: 82, description: "General programming & AI" },
         { name: "PHP", level: 80, description: "Web development" }
       ]
@@ -68,14 +69,15 @@ const Skills = () => {
       ]
     },
     {
-      icon: Palette,
+      icon: Brain,
       title: "AI & ML",
       color: "from-violet-500 to-purple-400",
       skills: [
+        { name: "RAG", level: 80, description: "Retrieval-Augmented Generation" },
+        { name: "LangChain", level: 78, description: "AI framework for LLM apps" },
         { name: "NLP", level: 75, description: "Natural Language Processing" },
         { name: "ML Models", level: 70, description: "Machine learning applications" },
-        { name: "Task Automation", level: 80, description: "Intelligent automation" },
-        { name: "AI Integration", level: 75, description: "AI systems in applications" }
+        { name: "Task Automation", level: 80, description: "Intelligent automation" }
       ]
     },
     {
